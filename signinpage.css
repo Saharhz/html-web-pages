@@ -1,0 +1,158 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.coding_icon {
+  background-color: #23155b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h3 {
+  color: #8053ff;
+  margin-bottom: 1px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d9d5d5;
+}
+
+@media (min-width: 576px) {
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid_container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.box {
+  background-color: #d9d5d5;
+  width: fit-content;
+  max-width: 250px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .box {
+    max-width: 700px;
+  }
+}
+.box a {
+  text-decoration: none;
+}
+
+.loginlink {
+  padding-top: 0;
+  margin-top: -25px;
+  font-size: 13px;
+}
+
+.form button {
+  display: flex;
+  background-color: rgb(47, 61, 255);
+  color: #d9d5d5;
+  width: 40vw;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 250px;
+  padding: 12px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  button {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  button {
+    max-width: 450px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  width: 40vw;
+  margin: 10px;
+  outline: none;
+  background-color: transparent;
+  max-width: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  input {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1024px) {
+  input {
+    max-width: 450px;
+  }
+}
+
+input::placeholder {
+  padding: 12px;
+  color: #d9d5d5;
+  background-color: #23155b;
+  opacity: 1;
+  border-radius: 5px;
+}
