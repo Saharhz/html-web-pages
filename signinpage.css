@@ -4,6 +4,10 @@ html {
   margin: 0;
 }
 
+body {
+  font-family: "Martel Sans", sans-serif;
+}
+
 img {
   width: 150px;
   height: 150px;
