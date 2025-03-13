@@ -3,185 +3,229 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Mukta:wght@300&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <img src="assets/logo.svg" alt="logo" />
-      <p>Code CLA</p>
-      <a href="assets/forcoders.html">For coders</a>
-      <a href="assets/fordevelopers.html">For developers</a>
-      <button>Join Now</button>
-    </header>
+    <nav>
+      <div class="logo">
+        <img src="assets/logo.svg" alt="logo" width="40" />
+        <h5>CLA</h5>
+      </div>
+      <div class="leftbar">
+        <button class="menu-toggle">
+          <img src="assets/icon-hamburger.svg" alt="icon-hamburger" />
+        </button>
+        <div class="nav-mobil">
+          <a href="assets/forcoders.html">For coders</a>
+          <a href="assets/fordevelopers.html">For developers</a>
+        </div>
+        <button>Join Now</button>
+      </div>
+    </nav>
 
     <main>
-      <h1>The place for competitive programmers</h1>
-      <p>
-        CodeCLA is where programmers participate in programming contest, solve
-        algorithm and data structure challenge and become a parte of an awesome
-        community
-      </p>
-      <button>Become a coder</button>
-      <button>Become a manager</button>
+      <div>
+        <h1>The place for competitive programmers</h1>
+      </div>
+      <div>
+        <p>
+          CodeCLA is where programmers participate in programming contest, solve
+          algorithm and data structure challenge and become a parte of an
+          awesome community
+        </p>
+      </div>
+      <div>
+        <button>Become a coder</button>
+        <button>Become a manager</button>
+      </div>
     </main>
+    <section class="grid_container">
+      <div class="statics">
+        <h2 class="title grid-item">Practice to level-up</h2>
+        <div class="problems grid-item">
+          <p>1k</p>
+          <p>problems for practice</p>
+        </div>
+        <div class="coders grid-item">
+          <p>100+</p>
+          <p>Coders</p>
+        </div>
+        <div class="language grid-item">
+          <p>10</p>
+          <p>Programming languages</p>
+        </div>
+        <div class="submission grid-item">
+          <p>130K</p>
+          <p>Submission</p>
+        </div>
+      </div>
+    </section>
 
-    <section>
-      <h2>Practice to level-up</h2>
-      <div>
-        <p>1k</p>
-        <p>problems for practice</p>
-      </div>
-      <div>
-        <p>100+</p>
-        <p>Coders</p>
-      </div>
-      <div>
-        <p>10</p>
-        <p>Programming languages</p>
-      </div>
-      <div>
-        <p>130K</p>
-        <p>Submission</p>
-      </div>
-    </section>
-    <section>
-      <h2>For Coders</h2>
-      <h3>What you will again</h3>
-    </section>
-    <section>
+    <section class="programms">
+      <h3>For Coders</h3>
+      <h2>What you will <span class="highlight">gain</span></h2>
       <p>
         you are a coder who wants to level up his skills in coding and problem
         solving? Here what we provide
       </p>
+    </section>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
-        <p>Rich practice set of problems</p>
-        <p>
-          Access a rich library of practice problems, algorithm, and data
-          structure to enhance your skills
-        </p>
+    <section class="containerforgrid">
+      <div class="griditem">
+        <span>&#9989;</span>
+        <div class="text-container">
+          <p>Rich practice set of problems</p>
+          <p>
+            Access a rich library of practice problems, algorithm, and data
+            structure to enhance your skills
+          </p>
+        </div>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
-        <p>Universal contest</p>
-        <p>
-          compete in regularly scheduled contest against top talent from around
-          the globe
-        </p>
+      <div class="griditem">
+        <span>&#9989;</span>
+        <div class="text-container">
+          <p>Universal contest</p>
+          <p>
+            compete in regularly scheduled contest against top talent from
+            around the globe
+          </p>
+        </div>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
-        <p>Constant feedback</p>
-        <p>
-          Recieve personalized insights and feedback to improve your
-          problem-solving abilities
-        </p>
+      <div class="griditem">
+        <span>&#9989;</span>
+        <div class="text-container">
+          <p>Constant feedback</p>
+          <p>
+            Recieve personalized insights and feedback to improve your
+            problem-solving abilities
+          </p>
+        </div>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
-        <p>Sharing is caring</p>
-        <p>
-          Connect with like-minded individuals from teams, and tackle challenges
-          together
-        </p>
+      <div class="griditem">
+        <span>&#9989;</span>
+        <div class="text-container">
+          <p>Sharing is caring</p>
+          <p>
+            Connect with like-minded individuals from teams, and tackle
+            challenges together
+          </p>
+        </div>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>Track your progress and climbs the ranks on your leaderboard</p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>Detailed solutions for problems</p>
-        <button>Join coders community</button>
       </div>
     </section>
+    <div class="gridbutton">
+      <button>Join coders community</button>
+    </div>
 
-    <section>
-      <h2>For Managers</h2>
-      <h3>Access high professional platform for coding challenges design</h3>
+    <section class="programms">
+      <h3>For Managers</h3>
+      <h2>
+        Access <span class="highlight">high professional</span> platform for
+        coding challenges design
+      </h2>
     </section>
-    <section>
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+    <section class="containerforgrid">
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>
           Craft tailored coding challenges suited to your specific needs and
           objectives
         </p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>
           Design challenges that align perfectly with your recruitment criteria
         </p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>
           choose from a wide range of problem types including algorithm, data
           structure, puzzles and more
         </p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>Ergonomic tools for challenges design</p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>
           collaborate with collegues or peers in creating and refining code
           challenges
         </p>
       </div>
 
-      <div>
-        <span style="font-size: 20px">&#9989;</span>
+      <div class="griditem">
+        <span>&#9989;</span>
         <p>Access dedicated support from our team of experts</p>
-        <button>Join managers community</button>
       </div>
-      <img src="assets/logo.svg" alt="logo" />
+    </section>
+    <div class="gridbutton">
+      <button>Join managers community</button>
+    </div>
+
+    <section class="flexbox">
+      <img src="assets/team.svg" alt="team" id="sidebar" />
+      <div class="sidebox">
+        <img src="assets/logo.svg" alt="logo" width="50px" />
+        <h3>Brought to you by CLA</h3>
+        <p>
+          Join the ultimate hub for competetive programmers and reach growth and
+          excellence in competetive programming
+        </p>
+        <p>
+          Coding challenges is made simple by our platform. Access a dashboard
+          of tools for high-quality challenge design
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h2>Brought to you by CLA</h2>
-      <p>
-        Join the ultimate hub for competetive programmers and reach growth and
-        excellence in competetive programming
-      </p>
-      <p>
-        Coding challenges is made simple by our platform. Access a dashboard of
-        tools for high-quality challenge design
-      </p>
+    <section class="Testimonial">
+      <h2><span class="highlight">Testimonial</span></h2>
+      <div class="borderbox">
+        <p>
+          This guy is an amazing frontend developer that delievered the task
+          exactly how we need it, do yourself a favor and hire him, you will not
+          be disappointed by the work delievered. He will go anxtra mile to make
+          sure that you are happy with your project. I will surly work again
+          with him.
+        </p>
+        <img
+          src="assets/Screenshot 2025-02-25 at 13.28.16.png"
+          alt="personalphoto"
+          id="persona"
+        />
+        <p><b>June Cha</b></p>
+        <p>Software Engineer</p>
+      </div>
     </section>
 
-    <section>
-      <h3>Testimonial</h3>
-      <p>
-        This guy is an amazing frontend developer that delievered the task
-        exactly how we need it, do yourself a favor and hire him, you will not
-        be disappointed by the work delievered. He will go anxtra mile to make
-        sure that you are happy with your project. I will surly work again with
-        him.
-      </p>
-      <img
-        src="assets/Screenshot 2025-02-25 at 13.28.16.png"
-        alt="personalphoto"
-        width="100px"
-      />
-      <p><b>June Cha</b></p>
-      <p>Software Engineer</p>
-    </section>
-
-    <section>
+    <footer>
       <h2>Contact Us</h2>
       <form
         action="form.html"
@@ -190,19 +234,19 @@
         <label for="name">Name</label>
         <input type="text" name="name" id="name" placeholder="YOUR Name" />
 
-        <label for="email">Name</label>
+        <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="Your Email" />
 
         <label for="message">Message</label>
         <input
+          id="message"
           type="text"
           name="message"
           id="message"
           placeholder="Your Message"
         />
-
         <button>Submit</button>
       </form>
-    </section>
+    </footer>
   </body>
 </html>
